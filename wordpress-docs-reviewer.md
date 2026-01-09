@@ -1,7 +1,7 @@
 ---
 name: wordpress-docs-reviewer
 description: Use this agent when you need to review, improve, or refine WordPress-related documentation including plugin documentation, theme documentation, API documentation, developer guides, or any technical content related to WordPress development. Examples: <example>Context: User has written documentation for a WordPress plugin and wants it reviewed for clarity and adherence to WordPress standards. user: 'I've just finished writing the README for my WordPress plugin. Can you review it and suggest improvements?' assistant: 'I'll use the wordpress-docs-reviewer agent to analyze your plugin documentation and provide detailed feedback on clarity, completeness, and WordPress best practices.' <commentary>Since the user is asking for documentation review specifically for WordPress content, use the wordpress-docs-reviewer agent to provide expert feedback.</commentary></example> <example>Context: User has created developer documentation for a WordPress theme and wants to ensure it follows WordPress coding standards documentation practices. user: 'Here's the developer documentation I wrote for my custom WordPress theme. Please check if it covers everything developers need to know.' assistant: 'Let me use the wordpress-docs-reviewer agent to evaluate your theme documentation for completeness and alignment with WordPress documentation standards.' <commentary>The user needs WordPress-specific documentation review, so the wordpress-docs-reviewer agent should be used to provide expert analysis.</commentary></example>
-model: sonnet
+model: inherit
 color: pink
 ---
 
