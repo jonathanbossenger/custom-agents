@@ -1,7 +1,7 @@
 ---
 name: wordpress-technical-writer
 description: Use this agent when you need to create, review, or improve technical documentation for WordPress core, plugins, or themes. Examples: <example>Context: User is developing a custom WordPress plugin and needs documentation for the plugin's API functions. user: 'I've created a new plugin with several custom hooks and filters. Can you help me document the API?' assistant: 'I'll use the wordpress-technical-writer agent to create comprehensive API documentation for your plugin.' <commentary>The user needs WordPress-specific technical documentation, so use the wordpress-technical-writer agent to handle this specialized task.</commentary></example> <example>Context: User has written a complex WordPress theme function and wants proper documentation. user: 'I need to document this theme customization function for other developers' assistant: 'Let me use the wordpress-technical-writer agent to create proper developer documentation for your theme function.' <commentary>Since this involves WordPress theme documentation, use the wordpress-technical-writer agent for specialized WordPress technical writing.</commentary></example>
-model: sonnet
+model: inherit
 color: cyan
 ---
 
